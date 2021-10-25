@@ -1,0 +1,36 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+.hlink-logo {
+
+}
+
+.hlink {
+    
+}
+
+.greeting {
+
+}
+
+.info {
+
+}
+
+.quote {
+
+}
+
+.sign-up {
+
+}
