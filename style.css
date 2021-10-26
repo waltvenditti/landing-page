@@ -5,7 +5,7 @@ Entire-Page Styles
 /*
 * {
     border: 1px solid green;
-}  */
+}   */
 
 body {
     display: flex;
@@ -121,12 +121,17 @@ Info Section
 .info-squares {
     display: flex;
     gap: 48px; 
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 0;
+    margin-bottom: 116px;
+ 
 }
 
 .sq-n-txt {
     display: flex;
     flex-direction: column;
-    margin-bottom: 128px;
+    margin-bottom: 12px;
 }
 
 .square {
