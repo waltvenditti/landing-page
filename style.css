@@ -38,8 +38,8 @@ header {
     flex-direction: row;
     align-items: baseline;
     margin-top: 24px;
-    margin-left: 256px;
-    margin-right: 256px;
+    margin-left: 384px;
+    margin-right: 384px;
     margin-bottom: 128px;
 }
 
@@ -53,8 +53,8 @@ header {
 
 .greeting {
     display: flex;
-    margin-left: 256px;
-    margin-right: 256px;
+    margin-left: 384px;
+    margin-right: 384px;
     margin-bottom: 128px;
     gap: 16px;
 }
@@ -63,6 +63,7 @@ header {
     display: flex;
     flex: 1 1 0;
     background-color: slategray;
+    border-radius: 8px;
 }
 
 .img-placeholder p {
@@ -165,18 +166,18 @@ Quote Section
     font-weight: lighter;
     font-style: italic;
     color: gray;
-    width: 750px;
     margin-top: 128px;
     margin-bottom: 0;
+    padding: 0 384px;
 }
 
 .quote-source {
     margin: 0;
-    width: 750px;
-    align-self: center;
+    align-self: flex-end;
     text-align: right;
     font-weight: bold;
     margin-bottom: 128px;
+    margin-right: 384px;
 }
 
 /* -----------------------------------------
@@ -194,10 +195,10 @@ Signup Section
     display: flex;
     height: 150px;
     flex: 1;
-    margin-left: 256px;
-    margin-right: 256px;
-    margin-top: 128px;
-    margin-bottom: 128px;
+    margin-left: 384px;
+    margin-right: 384px;
+    margin-top: 64px;
+    margin-bottom: 64px;
     border-radius: 8px;
     color: white;
     justify-content: space-between;
