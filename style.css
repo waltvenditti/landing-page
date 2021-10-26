@@ -4,12 +4,13 @@ Entire-Page Styles
 
 
 * {
-    border: 1px solid black;
+    border: 1px solid green;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: Helvetica;
 }
 
 
@@ -18,36 +19,59 @@ Header Section
 ---------------------------------------- */
 
 header {
+    background-color: #1F2937;
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-direction: column;
 }
 
 .hlink-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
 
+.top-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 24px;
+    margin-left: 128px;
+    margin-right: 128px;
 }
 
 .hlink {
-    
 }
 
 .rside {
     margin-left: auto;
 }
 
-
-/* -----------------------------------------
-Greeting Section
------------------------------------------ */
-
 .greeting {
-
+    display: flex;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-bottom: 64px;
 }
 
 .img-placeholder {
+    display: flex;
+    flex: 1 1 0;
+    background-color: slategray;
+}
 
+.img-placeholder p {
+    margin: auto;
 }
 
 .greet-text {
+    flex: 1 1 0;
+}
 
+.greet-text h1,
+.greet-text p {
+    margin: 0;
 }
 
 
@@ -68,7 +92,7 @@ Info Section
 }
 
 .square {
-    
+
 }
 
 
@@ -80,12 +104,27 @@ Quote Section
 
 }
 
+.quote-text {
+
+}
+
+.quote-source {
+
+}
 
 /* -----------------------------------------
 Signup Section
 ----------------------------------------- */
 
 .sign-up {
+
+}
+
+.signup-obj {
+
+}
+
+.signup-text {
 
 }
 
